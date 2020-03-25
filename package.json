@@ -1,0 +1,22 @@
+{
+  "name": "drop-mo-avs",
+  "version": "1.0.0",
+  "description": "A project to tranlate the PYMO-data to AVG.Renderer-data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack && npm run copy:html",
+    "copy:html": "cp html/* public/"
+  },
+  "dependencies": {
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.2.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "author": "",
+  "license": "MIT"
+}
