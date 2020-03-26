@@ -32,7 +32,9 @@ export class DropHandler {
             this.dealWithFolders(items).then(files => Zip.zip(files));
         });
     }
-
+    //ref:
+    // https://juejin.im/post/5e001b52518825126874d0f4
+    // change it for the async call.
     async dealWithFolders(items) {
         if (items.length > 1) {
             this.loading = false;
