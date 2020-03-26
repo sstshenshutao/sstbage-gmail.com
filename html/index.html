@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="drop.css">
 </head>
 <body>
-<img id="dropSpace" src="WechatIMG1.jpeg" alt="">
-<input id="dropInput" type="file" webkitdirectory multiple />
-<ul id="outListing"></ul>
+<div id="dropSpace">
+    <p id="boxTitle"> you can drag and drop the dir here</p>
+    <img src="helloworld.png" alt="">
+    <p> or you can also choose the dir manually</p>
+    <input id="dropInput" type="file" webkitdirectory multiple/>
+</div>
 <script type="module" src="js/bundle-index.js"></script>
 </body>
 </html>

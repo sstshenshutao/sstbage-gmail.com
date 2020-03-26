@@ -1,0 +1,22 @@
+#dropSpace {
+    text-align: center;
+    width: 80%;
+    height: 80%;
+    margin: 5%;
+    padding: 5%;
+    border: 4px dashed red;
+    border-radius: 10px;
+}
+#boxTitle {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+    font: bold 2em "Arial", sans-serif;
+    width: 30%;
+    height: 10%;
+}
+
+body {
+    font: 14px "Arial", sans-serif;
+}
