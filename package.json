@@ -9,6 +9,8 @@
     "copy:html": "cp html/* public/"
   },
   "dependencies": {
+    "file-saver": "^2.0.2",
+    "jszip": "^3.2.2",
     "typescript": "^3.8.3"
   },
   "devDependencies": {
